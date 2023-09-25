@@ -1,16 +1,16 @@
 *{
     text-align:center;
     margin:0;
-    pading:0
+    padding:0
 }
 .parent{
     background-color:green;
     min-height:100px;
-    padding:2px
+    padding:2px;
     display:flex;
 }
 .child{
-    min-height:50px
+    min-height:50px;
     min-width:50px
  }
 .red{
@@ -20,8 +20,8 @@
     background-color: yellow;
 }
 .example1{
-    justify-content:space-between
-    align-item:center;
+    justify-content:space-between;
+    align-items:center;
 }
 .example2{
 align-items: stretch;
@@ -40,4 +40,13 @@ align-items: stretch;
     background-color:pink;
     order:3;
     flex:1;
+}
+.example3 .child {
+    flex:1;
+}
+.purple{
+    background-color:purple;
+}
+.orange{
+    background-color:orange;
 }

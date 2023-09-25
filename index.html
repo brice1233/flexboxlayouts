@@ -7,39 +7,81 @@
 </head>
 <body>
 <div class="header">
-  <h1>example layouts using flexbox</h1>
-  </div>
+    <h1>example layouts using flexbox</h1>
+</div>
 <h4>example 1: justify-content vs align-items</h4>
 
-  <div class="parent example1">
+<div class="parent example1">
 
     <div class="child red">
 
-  </div>
+    </div>
 
-  <div class="child yellow">
+    <div class="child yellow">
 
-  </div>
+    </div>
 
 </div>
 <h4>example 2: order, flex, and the importance of specificity </h4>
 <div class="parent example2">
-  <div class="mainbox">
-<p> Kids should be able to stay up pass ten</p>
-    <p> Kids should be able to stay up pass ten</p>
-    <p> Kids should be able to stay up pass ten</p>
-    <p> Kids should be able to stay up pass ten</p>
-  </div>
-  <div class="aside">
-<p> go to this link for the info </p>
-    <p> go to this link for the info </p>
-    <p> go to this link for the info </p>
-  </div>
-  <div class="aside 2">
-<p>this is the animal of the year</p>
-    <p>this is the animal of the year</p>
-    <p>this is the animal of the year</p>
-  </div>
+    <div class="mainbox">
+        <p> Kids should be able to stay up pass ten</p>
+        <p> Kids should be able to stay up pass ten</p>
+        <p> Kids should be able to stay up pass ten</p>
+        <p> Kids should be able to stay up pass ten</p>
+    </div>
+    <div class="aside1">
+        <p> go to this link for the info </p>
+        <p> go to this link for the info </p>
+        <p> go to this link for the info </p>
+    </div>
+    <div class="aside2">
+        <p>this is the animal of the year</p>
+        <p>this is the animal of the year</p>
+        <p>this is the animal of the year</p>
+    </div>
+</div>
+<h4> example 3:nested flexbox:understanding parent, child and grandchild elements</h4>
+<div class="parent example3">
+
+    <div class="child red">
+        <p>im a child</p>
+    </div>
+    <div class="child yellow">
+        <p>im a child</p>
+        <div class="child grandchild purple">
+            <p> im a child but also a grandchild</p>
+        </div>
+
+        <div class="child grandchild orange">
+        <p> im a child but also a grandchild</p>
+        </div>
+    </div>
+</div>
+<h4>example 4 my own work :</h4>
+<div class="parent example4">
+    <div class="row">
+        <div class="light">
+
+        </div>
+        <div class="dark">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="dark">
+
+        </div>
+        <div class="light">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="light">
+        </div>
+        <div class="dark">
+        </div>
+    </div>
 </div>
 </body>
 </html>
