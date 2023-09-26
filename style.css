@@ -50,3 +50,75 @@ align-items: stretch;
 .orange{
     background-color:orange;
 }
+.row{
+    display:flex;
+    flex-direction: row;
+    margin:2px ;
+}
+.example4{
+    flex-direction: column;
+}
+.light{
+    background-color:lightblue;
+    min-height: 50px;
+    min-width: 50px;
+    flex:6;
+}
+.dark{
+background-color:blue;
+    min-height: 10px;
+    min-width: 10px;
+    flex:1;
+}
+.example5{
+  flex-direction:column;
+}
+.yellowline{
+
+}
+.child{
+    min-height: 100px;
+    min-width: 100px;
+    flex:1;
+    margin: 2px;
+}
+.child2{
+    min-height:100px;
+    min-width:100px;
+    flex:3;
+    margin:2px;
+    flex-direction: column;
+}
+.darkblue{
+    background-color: blue;
+    min-height: 100px;
+    width:100%;
+    flex:1;
+}
+.grandchild{
+    min-height: 100px;
+    width: 100%;
+    flex:1;
+    display:flex;
+    flex-direction: row;
+}
+.lightblue{
+background-color:lightblue;
+    min-height: 50px;
+    width: 1000%;
+    margin:2px;
+}
+.g-grandchild{
+    min-height: 50px;
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.lime{
+    background-color: lime;
+    width:100%;
+    height:40px;
+    margin: 2px;
+    flex:1;
+}
