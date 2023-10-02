@@ -74,6 +74,22 @@ background-color:blue;
   flex-direction:column;
 }
 .yellowline{
+    min-height: 30px;
+    margin:3px;
+    background-color: yellow;
+    flex:1;
+}
+.bars{
+    display:flex;
+    flex-direction: row;
+          flex:6;
+    justify-content:space-around;
+}
+.bar{
+    background-color: teal;
+    width:20%;
+    min-height: 300px;
+
 }
 .child{
     min-height: 100px;
